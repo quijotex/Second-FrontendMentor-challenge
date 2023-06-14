@@ -19,7 +19,7 @@ function printResults(infoResults){
         html += `
           <div class="div__container">
             <div class="div__category">
-                  <img src="${result.icon}">
+                  <img src="${result.icon}" alt="Icon_img">
                   <h3>${result.category}</h3>
               </div>
               <div class="div2__category">
