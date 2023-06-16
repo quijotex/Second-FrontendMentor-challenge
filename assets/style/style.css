@@ -183,7 +183,7 @@ body {
         font-size: 1.2rem; 
     }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
     .section1 {
         height: 70%;
         width: 30%;
@@ -204,5 +204,20 @@ body {
     }
     .div__p {
         margin-bottom: 30px; 
+    }
+}
+@media screen and (min-width: 1440px) {
+    .section1 {
+        height: 58.5%;
+    }
+    .section1__div2 {
+        border-radius: 100px;
+        padding: 59px 69px;
+    }
+    .section2 {
+        padding: 40px ;
+        height: 58.5%;
+        width: 30%;
+        gap: 35px;
     }
 }
