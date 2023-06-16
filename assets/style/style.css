@@ -185,7 +185,8 @@ body {
 }
 @media screen and (min-width: 1440px) {
     .section1 {
-        height: 85%;
+        height: 70%;
+        width: 30%;
     }
     .section1__div2 {
         border-radius: 100px;
@@ -193,8 +194,15 @@ body {
     }
     .section2 {
         padding: 40px ;
-        height: 85%;
+        height: 70%;
         width: 30%;
-        gap: 35px;
+        gap: 24px;
+        padding-bottom: 0px;
+    }
+    .div2__span1 {
+        font-size: 4rem;
+    }
+    .div__p {
+        margin-bottom: 30px; 
     }
 }
